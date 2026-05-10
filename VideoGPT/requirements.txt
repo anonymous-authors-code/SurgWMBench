@@ -1,0 +1,16 @@
+tqdm
+requests
+h5py
+torch
+torchvision
+torchaudio
+pytorch-lightning
+scikit-video
+av
+gradio
+moviepy
+imageio
+gdown
+scikit-image
+lpips
+pytest

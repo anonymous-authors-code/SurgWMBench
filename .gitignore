@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info
+.eggs/
+
+# Virtual envs and caches
+.venv/
+.uv-cache/
+.uv-python/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Per-baseline training/inference outputs (large)
+HieraSurg/outputs/
+HieraSurg/modules/
+iVideoGPT/log_trm/
+iVideoGPT/log_vqgan/
+iVideoGPT/log_*/
+iVideoGPT/outputs/
+iVideoGPT/pretrained_models/
+iVideoGPT/util_scripts/
+iVideoGPT/tmp/
+iVideoGPT/mbrl/demonstrations/
+iVideoGPT/*_preprocessed/
+iVideoGPT/benchmark/outputs/
+SurgSora/Training/logs/
+SurgSora/Training/ckpts/
+SurgSora/Training/eval_outputs/
+SurgSora/models/**/checkpoints/
+SurgSora/outputs/
+VideoGPT/lightning_logs/
+VideoGPT/datasets/
+VideoGPT/outputs/
+VideoGPT/logs/
+VideoGPT/i3d_pretrained_400.pt
+
+# Large model artifacts (anywhere)
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.tflite
+*.h5
+*.npz
+
+# Logs
+*.log
+wandb/
+
+# Media (often large)
+*.mp4
+*.avi
+*.mov
+
+# Keep small assets and demo media
+!**/assets/**
+!**/demo/**

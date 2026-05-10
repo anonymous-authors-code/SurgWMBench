@@ -1,0 +1,11 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+outputs/
+Training/logs/
+Training/ckpts/
+Training/eval_outputs/
+models/**/checkpoints/

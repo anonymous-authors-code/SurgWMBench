@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "videogpt"
+version = "1.0.0"
+description = "PyTorch package for VideoGPT with SurgWMBench adaptation"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = "BSD-3-Clause"
+authors = [
+  { name = "Anonymous", email = "anonymous@anonymous.invalid" },
+]
+dependencies = [
+  "tqdm",
+  "requests",
+  "h5py",
+  "torch",
+  "torchvision",
+  "torchaudio",
+  "pytorch-lightning",
+  "scikit-video",
+  "av",
+  "gradio",
+  "moviepy",
+  "imageio",
+  "gdown",
+  "scikit-image",
+  "lpips",
+  "pytest",
+]
+
+[tool.setuptools]
+packages = ["videogpt", "videogpt.fvd"]

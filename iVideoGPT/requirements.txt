@@ -1,0 +1,23 @@
+--index-url https://download.pytorch.org/whl/cu130
+--extra-index-url https://pypi.org/simple
+
+torch==2.11.0
+torchvision==0.26.0
+transformers==4.38.2
+diffusers==0.27.0
+huggingface-hub>=0.20.2,<0.26
+imageio==2.9.0
+imageio-ffmpeg==0.4.4
+accelerate>=0.27.0
+safetensors>=0.4.0
+peft>=0.8.0,<0.9
+piqa>=1.3.2
+lpips>=0.1.4
+numpy>=1.26.0
+opencv-python>=4.8.0
+Pillow>=9.0
+psutil>=5.9.0
+PyYAML>=6.0
+requests>=2.31.0
+tensorboard>=2.0
+tqdm>=4.64.0

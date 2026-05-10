@@ -1,0 +1,62 @@
+[project]
+name = "hierasurg"
+version = "0.1.0"
+description = "HieraSurg surgical video generation and SurgWMBench 20-anchor prediction adaptation."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "accelerate>=0.34.2",
+    "bitsandbytes==0.45.2",
+    "blosc",
+    "decord",
+    "diffusers==0.30.3",
+    "gputil",
+    "gradio>=4.44.0",
+    "graphviz",
+    "imageio>=2.35.1",
+    "imageio-ffmpeg>=0.5.1",
+    "jinja2",
+    "lightning",
+    "lpips",
+    "moviepy>=1.0.3",
+    "numpy==1.26.0",
+    "objgraph",
+    "open-clip-torch",
+    "openai>=1.45.5",
+    "opencv-python",
+    "peft",
+    "pillow==9.5.0",
+    "psutil",
+    "pympler",
+    "pytest",
+    "scikit-video",
+    "sentencepiece>=0.2.0",
+    "SwissArmyTransformer>=0.4.12",
+    "tabulate",
+    "timm",
+    "torch==2.11.0",
+    "torch-fidelity",
+    "torchmetrics",
+    "torchvision==0.26.0",
+    "transformers==4.46.2",
+    "ultralytics",
+    "clip @ git+https://github.com/openai/CLIP.git",
+]
+
+[project.optional-dependencies]
+labeler = [
+    "einops",
+    "opencv-python",
+    "open-clip-torch",
+    "scikit-learn",
+    "timm",
+    "transformers",
+    "ultralytics",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
