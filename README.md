@@ -37,3 +37,22 @@ equivalent path.
 This benchmark builds on the four baseline codebases listed above. Their
 original authors and citations are preserved in each subdirectory's
 `README.md` and `LICENSE`.
+
+## License
+
+The SurgWMBench benchmark code, evaluation harness, and integration layer
+provided at the top level of this repository are released under the
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The full legal text is included in the top-level `LICENSE` file.
+
+The four baseline codebases vendored as subdirectories retain their original
+licenses, which are unchanged by this release:
+
+- `iVideoGPT/` — MIT (see `iVideoGPT/LICENSE`)
+- `VideoGPT/` — MIT (see `VideoGPT/LICENSE`)
+- `HieraSurg/` — See per-file copyright headers within `HieraSurg/`
+- `SurgSora/` — See per-file copyright headers within `SurgSora/`
+
+Use of any baseline subdirectory must comply with both its original license
+and the CC BY-NC-SA 4.0 terms governing the SurgWMBench benchmark as a whole.
